@@ -1,0 +1,3 @@
+  [librdi_filemgmt.dll+0x342db5]srcscan starts
+srcscan: Caught exception in shared_memory linking
+srcscan exits with return value -1

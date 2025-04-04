@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr  4 17:23:04 2025
+# Process ID: 11148
+# Current directory: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.runs/impl_1
+# Command line: vivado.exe -log processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source processor.tcl -notrace
+# Log file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.runs/impl_1/processor.vdi
+# Journal file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.runs/impl_1\vivado.jou
+# Running On: Karanveer, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 10, Host memory: 16780 MB
+#-----------------------------------------------------------
+source processor.tcl -notrace

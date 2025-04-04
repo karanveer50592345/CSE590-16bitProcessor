@@ -1,0 +1,1265 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr  3 17:46:10 2025
+# Process ID: 3536
+# Current directory: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1788 C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.xpr
+# Log file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/vivado.log
+# Journal file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1\vivado.jou
+# Running On: Karanveer, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 10, Host memory: 16780 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1479.191 ; gain = 423.711
+set_property top programCounter [current_fileset]
+set_property top ProgramCounter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ProgramCounter_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ProgramCounter_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj ProgramCounter_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pcAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/sll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/SignExtender12bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtension12Bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programCounter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'programCounter' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v:22]
+INFO: [VRFC 10-311] analyzing module instructionMemory
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'instructionMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:23]
+INFO: [VRFC 10-311] analyzing module controlUnit
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'controlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v:22]
+INFO: [VRFC 10-311] analyzing module registerFile
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'registerFile' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/registerFile.v:23]
+INFO: [VRFC 10-311] analyzing module signExtension
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'signExtension' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v:23]
+INFO: [VRFC 10-311] analyzing module signExtension12Bit
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'signExtension12Bit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtender12Bit.v:23]
+INFO: [VRFC 10-311] analyzing module sll
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'sll' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/sll.v:22]
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ALU' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v:23]
+INFO: [VRFC 10-311] analyzing module pcAdder
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'pcAdder' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v:22]
+INFO: [VRFC 10-311] analyzing module adder
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'adder' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/add.v:22]
+INFO: [VRFC 10-311] analyzing module dataMemory
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'dataMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:23]
+INFO: [VRFC 10-311] analyzing module multiplexer
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'multiplexer' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v:23]
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ALUControlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_ins_mem_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_ins_mem_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_pc_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProgramCounter_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/cpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_reg_file_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_reg_file_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_control_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_control_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_alu_control_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_alu_control_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_mux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_mux_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_adder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_adder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/unitTestSignExtension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module unitTestSignExtension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_sl1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_sl1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_data_mem_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_data_mem_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_add_instr_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_add_instr_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_processor_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_alu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_alu_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1486.781 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ProgramCounter_tb_behav xil_defaultlib.ProgramCounter_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ProgramCounter_tb_behav xil_defaultlib.ProgramCounter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.ProgramCounter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ProgramCounter_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ProgramCounter_tb_behav -key {Behavioral:sim_1:Functional:ProgramCounter_tb} -tclbatch {ProgramCounter_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ProgramCounter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | clk=0 | reset=1 | next_pc=0000 | pc=0000
+Time=5000 | clk=1 | reset=1 | next_pc=0000 | pc=0000
+Time=10000 | clk=0 | reset=0 | next_pc=0000 | pc=0000
+Time=15000 | clk=1 | reset=0 | next_pc=0000 | pc=0000
+Time=20000 | clk=0 | reset=0 | next_pc=0004 | pc=0000
+Time=25000 | clk=1 | reset=0 | next_pc=0004 | pc=0004
+Time=30000 | clk=0 | reset=0 | next_pc=0008 | pc=0004
+Time=35000 | clk=1 | reset=0 | next_pc=0008 | pc=0008
+Time=40000 | clk=0 | reset=0 | next_pc=000c | pc=0008
+Time=45000 | clk=1 | reset=0 | next_pc=000c | pc=000c
+Time=50000 | clk=0 | reset=1 | next_pc=000c | pc=0000
+Time=55000 | clk=1 | reset=1 | next_pc=000c | pc=0000
+Time=60000 | clk=0 | reset=0 | next_pc=0010 | pc=0000
+Time=65000 | clk=1 | reset=0 | next_pc=0010 | pc=0010
+Time=70000 | clk=0 | reset=0 | next_pc=0020 | pc=0010
+Time=75000 | clk=1 | reset=0 | next_pc=0020 | pc=0020
+Time=80000 | clk=0 | reset=0 | next_pc=0030 | pc=0020
+Time=85000 | clk=1 | reset=0 | next_pc=0030 | pc=0030
+Time=90000 | clk=0 | reset=0 | next_pc=0030 | pc=0030
+Time=95000 | clk=1 | reset=0 | next_pc=0030 | pc=0030
+$finish called at time : 100 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_pc_tb.v" Line 56
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ProgramCounter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 1543.926 ; gain = 57.145
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+export_ip_user_files -of_objects  [get_files {{C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/cpu_sim.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/cpu_sim.v}}
+file delete -force {C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/cpu_sim.v}
+set_property top test_adder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+set_property top test_processor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1543.926 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_tb_behav xil_defaultlib.test_processor_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_processor_tb_behav xil_defaultlib.test_processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.programCounter
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.pcAdder
+Compiling module xil_defaultlib.registerFile
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.signExtension12Bit
+Compiling module xil_defaultlib.signExtension
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.sll
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.test_processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_processor_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1543.926 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_processor_tb_behav -key {Behavioral:sim_1:Functional:test_processor_tb} -tclbatch {test_processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Test Completed
+$finish called at time : 101 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_processor_tb.v" Line 75
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1543.926 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_adder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_adder_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_adder_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_adder_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_adder_tb_behav xil_defaultlib.test_adder_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_adder_tb_behav xil_defaultlib.test_adder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.test_adder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_adder_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1548.719 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_adder_tb_behav -key {Behavioral:sim_1:Functional:test_adder_tb} -tclbatch {test_adder_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_adder_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Test Case 1: inp1 =    100, inp2 =    200, result =    300
+Test Case 2: inp1 =    150, inp2 =    -50, result =    100
+Test Case 3: inp1 =   -100, inp2 =   -200, result =   -300
+Test Case 4: inp1 =     50, inp2 =      0, result =     50
+Test Case 5: inp1 =  32767, inp2 =    100, result = -32669
+Test Case 6: inp1 = -32768, inp2 =     50, result = -32718
+Test Case 7: inp1 = -10000, inp2 = -20000, result = -30000
+$finish called at time : 150 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_adder_tb.v" Line 81
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_adder_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1548.719 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_alu_control_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu_control_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_alu_control_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_alu_control_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_control_tb_behav xil_defaultlib.test_alu_control_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_control_tb_behav xil_defaultlib.test_alu_control_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.test_alu_control_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_alu_control_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_alu_control_tb_behav -key {Behavioral:sim_1:Functional:test_alu_control_tb} -tclbatch {test_alu_control_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_alu_control_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | ALUOp=001 | FnCode=0000 | ALUFn=0001
+Time=10000 | ALUOp=001 | FnCode=0001 | ALUFn=0010
+Time=20000 | ALUOp=001 | FnCode=0010 | ALUFn=0011
+Time=30000 | ALUOp=001 | FnCode=0011 | ALUFn=0100
+Time=40000 | ALUOp=010 | FnCode=xxxx | ALUFn=0001
+Time=50000 | ALUOp=011 | FnCode=xxxx | ALUFn=0101
+Time=60000 | ALUOp=100 | FnCode=xxxx | ALUFn=0110
+Time=70000 | ALUOp=101 | FnCode=xxxx | ALUFn=0111
+Time=80000 | ALUOp=111 | FnCode=xxxx | ALUFn=0000
+Time=90000 | ALUOp=000 | FnCode=0001 | ALUFn=0000
+$finish called at time : 100 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_alu_control_tb.v" Line 59
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_alu_control_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1549.027 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_alu_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_alu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_alu_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_alu_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1826.012 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_tb_behav xil_defaultlib.test_alu_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_alu_tb_behav xil_defaultlib.test_alu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.test_alu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_alu_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_alu_tb_behav -key {Behavioral:sim_1:Functional:test_alu_tb} -tclbatch {test_alu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_alu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ALUFn=0000, data1=0000, data2=0000, out=0000, bin=0
+ALUFn=0001, data1=0005, data2=0003, out=0008, bin=0
+ALUFn=0010, data1=0010, data2=0005, out=000b, bin=0
+ALUFn=0011, data1=0004, data2=0002, out=0020, bin=0
+ALUFn=0100, data1=ffff, data2=00ff, out=00ff, bin=0
+ALUFn=0101, data1=1234, data2=1234, out=0000, bin=1
+ALUFn=0101, data1=1234, data2=1235, out=0000, bin=0
+ALUFn=0110, data1=1234, data2=5678, out=0000, bin=1
+ALUFn=0110, data1=5678, data2=5678, out=0000, bin=0
+$finish called at time : 110 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_alu_tb.v" Line 106
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_alu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1826.199 ; gain = 0.188
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_control_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_control_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_control_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_control_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_control_tb_behav xil_defaultlib.test_control_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_control_tb_behav xil_defaultlib.test_control_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.test_control_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_control_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_control_tb_behav -key {Behavioral:sim_1:Functional:test_control_tb} -tclbatch {test_control_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_control_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | opcode=xxxx | RegWrite=x | Branch=x | Jump=x | MemRead=x | MemWrite=x | MemToReg=x | ALUSrc=x | ALUOp=xxx
+Time=10000 | opcode=0000 | RegWrite=1 | Branch=0 | Jump=0 | MemRead=0 | MemWrite=0 | MemToReg=0 | ALUSrc=0 | ALUOp=001
+Time=20000 | opcode=0001 | RegWrite=1 | Branch=0 | Jump=0 | MemRead=1 | MemWrite=0 | MemToReg=1 | ALUSrc=1 | ALUOp=101
+Time=30000 | opcode=0010 | RegWrite=0 | Branch=0 | Jump=0 | MemRead=0 | MemWrite=1 | MemToReg=0 | ALUSrc=1 | ALUOp=101
+Time=40000 | opcode=0011 | RegWrite=1 | Branch=0 | Jump=0 | MemRead=0 | MemWrite=0 | MemToReg=0 | ALUSrc=1 | ALUOp=010
+Time=50000 | opcode=0100 | RegWrite=0 | Branch=1 | Jump=0 | MemRead=0 | MemWrite=0 | MemToReg=0 | ALUSrc=0 | ALUOp=011
+Time=60000 | opcode=0101 | RegWrite=0 | Branch=1 | Jump=0 | MemRead=0 | MemWrite=0 | MemToReg=0 | ALUSrc=0 | ALUOp=100
+Time=70000 | opcode=0110 | RegWrite=0 | Branch=0 | Jump=1 | MemRead=0 | MemWrite=0 | MemToReg=0 | ALUSrc=0 | ALUOp=000
+$finish called at time : 80 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_control_tb.v" Line 59
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_control_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_data_mem_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sources_1\new\processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_control_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_processor_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_adder_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\cpu_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_alu_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv6\project_1_updatedv4\project_1\project_1.srcs\sim_1\new\test_pc_tb.v:]
+INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_data_mem_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_data_mem_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_data_mem_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_data_mem_tb_behav xil_defaultlib.test_data_mem_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_data_mem_tb_behav xil_defaultlib.test_data_mem_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.test_data_mem_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_data_mem_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_data_mem_tb_behav -key {Behavioral:sim_1:Functional:test_data_mem_tb} -tclbatch {test_data_mem_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_data_mem_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Test Case 1: After reset, read_data = 0000
+Test Case 2: Write 1234 to address 0, read_data = 1234
+Test Case 3: Write 5678 to address 2, read_data = 5678
+Test Case 4: Read from address 1 (unwritten), read_data = 0000
+Test Case 5: Write 9ABC to address 5, read_data = 9abc
+$finish called at time : 140 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_data_mem_tb.v" Line 101
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_data_mem_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_ins_mem_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_ins_mem_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_ins_mem_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_ins_mem_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_ins_mem_tb_behav xil_defaultlib.test_ins_mem_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_ins_mem_tb_behav xil_defaultlib.test_ins_mem_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.test_ins_mem_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_ins_mem_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_ins_mem_tb_behav -key {Behavioral:sim_1:Functional:test_ins_mem_tb} -tclbatch {test_ins_mem_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_ins_mem_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | PC=xxxx | Instruction=xxxx
+Time=10000 | PC=0000 | Instruction=ffff
+Time=20000 | PC=0002 | Instruction=0100
+Time=30000 | PC=0004 | Instruction=320d
+Time=40000 | PC=0006 | Instruction=3307
+Time=50000 | PC=0008 | Instruction=0120
+Time=60000 | PC=000a | Instruction=3730
+Time=70000 | PC=000c | Instruction=0711
+Time=80000 | PC=0010 | Instruction=3781
+Time=90000 | PC=003e | Instruction=xxxx
+$finish called at time : 110 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_ins_mem_tb.v" Line 48
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_ins_mem_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_mux_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_mux_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_mux_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_mux_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mux_tb_behav xil_defaultlib.test_mux_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_mux_tb_behav xil_defaultlib.test_mux_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.test_mux_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_mux_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_mux_tb_behav -key {Behavioral:sim_1:Functional:test_mux_tb} -tclbatch {test_mux_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_mux_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+sel=0, in0=aaaa, in1=5555, mux_out=aaaa
+sel=1, in0=aaaa, in1=5555, mux_out=5555
+sel=0, in0=1234, in1=5678, mux_out=1234
+sel=1, in0=1234, in1=5678, mux_out=5678
+$finish called at time : 50 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_mux_tb.v" Line 60
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_mux_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_reg_file_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_reg_file_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_reg_file_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_reg_file_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_reg_file_tb_behav xil_defaultlib.test_reg_file_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_reg_file_tb_behav xil_defaultlib.test_reg_file_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.registerFile
+Compiling module xil_defaultlib.test_reg_file_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_reg_file_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_reg_file_tb_behav -key {Behavioral:sim_1:Functional:test_reg_file_tb} -tclbatch {test_reg_file_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_reg_file_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | clk=0 | reset=1 | reg_write=0 | write_reg=0 | write_data=0000 | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=5000 | clk=1 | reset=1 | reg_write=0 | write_reg=0 | write_data=0000 | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=10000 | clk=0 | reset=0 | reg_write=0 | write_reg=0 | write_data=0000 | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=15000 | clk=1 | reset=0 | reg_write=0 | write_reg=0 | write_data=0000 | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=20000 | clk=0 | reset=0 | reg_write=1 | write_reg=1 | write_data=aaaa | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=25000 | clk=1 | reset=0 | reg_write=1 | write_reg=1 | write_data=aaaa | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=0000
+Time=30000 | clk=0 | reset=0 | reg_write=1 | write_reg=3 | write_data=bbbb | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=aaaa
+Time=35000 | clk=1 | reset=0 | reg_write=1 | write_reg=3 | write_data=bbbb | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=aaaa
+Time=40000 | clk=0 | reset=0 | reg_write=0 | write_reg=3 | write_data=bbbb | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=aaaa
+Time=45000 | clk=1 | reset=0 | reg_write=0 | write_reg=3 | write_data=bbbb | read_reg1=0 | read_reg2=1 | read_data1=0000 | read_data2=aaaa
+Time=50000 | clk=0 | reset=0 | reg_write=0 | write_reg=3 | write_data=bbbb | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=bbbb
+Time=55000 | clk=1 | reset=0 | reg_write=0 | write_reg=3 | write_data=bbbb | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=bbbb
+Time=60000 | clk=0 | reset=0 | reg_write=1 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=bbbb
+Time=65000 | clk=1 | reset=0 | reg_write=1 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=bbbb
+Time=70000 | clk=0 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=4 | read_reg2=0 | read_data1=1234 | read_data2=0000
+Time=75000 | clk=1 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=4 | read_reg2=0 | read_data1=1234 | read_data2=0000
+Time=80000 | clk=0 | reset=1 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=4 | read_reg2=0 | read_data1=0000 | read_data2=0000
+Time=85000 | clk=1 | reset=1 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=4 | read_reg2=0 | read_data1=0000 | read_data2=0000
+Time=90000 | clk=0 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=0000
+Time=95000 | clk=1 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=0000
+Time=100000 | clk=0 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=0000
+Time=105000 | clk=1 | reset=0 | reg_write=0 | write_reg=4 | write_data=1234 | read_reg1=2 | read_reg2=3 | read_data1=0000 | read_data2=0000
+$finish called at time : 110 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_reg_file_tb.v" Line 73
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_reg_file_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top test_sl1_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_sl1_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_sl1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_sl1_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_sl1_tb_behav xil_defaultlib.test_sl1_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_sl1_tb_behav xil_defaultlib.test_sl1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sll
+Compiling module xil_defaultlib.test_sl1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_sl1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_sl1_tb_behav -key {Behavioral:sim_1:Functional:test_sl1_tb} -tclbatch {test_sl1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source test_sl1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Test Case 1: inp = 0001000000000000, result = 0010000000000000
+Test Case 2: inp = 1111111111111111, result = 1111111111111110
+Test Case 3: inp = 0000000000000001, result = 0000000000000010
+Test Case 4: inp = 1000000000000000, result = 0000000000000000
+Test Case 5: inp = 0000000000001000, result = 0000000000010000
+Test Case 6: inp = 0000000000000000, result = 0000000000000000
+Test Case 7: inp = 1111100011110000, result = 1111000111100000
+$finish called at time : 70 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sim_1/new/test_sl1_tb.v" Line 61
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_sl1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top unitTestSignExtension [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+ERROR: [Common 17-180] Spawn failed: No such file or directory
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'unitTestSignExtension'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'unitTestSignExtension' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj unitTestSignExtension_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot unitTestSignExtension_behav xil_defaultlib.unitTestSignExtension xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot unitTestSignExtension_behav xil_defaultlib.unitTestSignExtension xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.signExtension12Bit
+Compiling module xil_defaultlib.unitTestSignExtension
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot unitTestSignExtension_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "unitTestSignExtension_behav -key {Behavioral:sim_1:Functional:unitTestSignExtension} -tclbatch {unitTestSignExtension.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source unitTestSignExtension.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Test Case 1: twelveBitInput = 000100000001, sixteenBitExtendedOutput = 0000000100000001
+Test Case 2: twelveBitInput = 111100000001, sixteenBitExtendedOutput = 1111111100000001
+Test Case 3: twelveBitInput = 100000000001, sixteenBitExtendedOutput = 1111100000000001
+Test Case 4: twelveBitInput = 100101010001, sixteenBitExtendedOutput = 1111100101010001
+Test Case 5: twelveBitInput = 000100000000, sixteenBitExtendedOutput = 0000000100000000
+$finish called at time : 50 ns : File "C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv6/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/unitTestSignExtension.v" Line 54
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'unitTestSignExtension_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  3 18:01:58 2025...

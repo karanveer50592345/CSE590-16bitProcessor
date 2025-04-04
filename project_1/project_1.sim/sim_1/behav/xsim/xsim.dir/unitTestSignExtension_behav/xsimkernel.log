@@ -1,0 +1,7 @@
+Running: xsim.dir/unitTestSignExtension_behav/xsimk.exe -simmode gui -wdb unitTestSignExtension_behav.wdb -simrunnum 0 -socket 50203
+Design successfully loaded
+Design Loading Memory Usage: 10176 KB (Peak: 10176 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 10756 KB (Peak: 10756 KB)
+Simulation CPU Usage: 30 ms

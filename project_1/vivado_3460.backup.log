@@ -1,0 +1,265 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr  3 17:35:47 2025
+# Process ID: 3460
+# Current directory: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2152 C:\Users\karan\OneDrive\Documents\Work\UB\SEM2\Computer Architecture\project_1_updatedv5\project_1_updatedv4\project_1\project_1.xpr
+# Log file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/vivado.log
+# Journal file: C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1\vivado.jou
+# Running On: Karanveer, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 10, Host memory: 16780 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1'
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1473.836 ; gain = 297.879
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:01:44 . Memory (MB): peak = 1498.051 ; gain = 16.965
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:01:46 . Memory (MB): peak = 1498.051 ; gain = 16.965
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+synth_design -top processor -part xc7a35tcpg236-1 -lint 
+Command: synth_design -top processor -part xc7a35tcpg236-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2680
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1905.043 ; gain = 406.125
+---------------------------------------------------------------------------------
+Clean up Linter database...
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'programCounter' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v:34]
+INFO: [Synth 8-9937] previous definition of design element 'programCounter' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v:34]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'instructionMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:37]
+INFO: [Synth 8-9937] previous definition of design element 'instructionMemory' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:37]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'controlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v:117]
+INFO: [Synth 8-9937] previous definition of design element 'controlUnit' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v:117]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'registerFile' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/registerFile.v:50]
+INFO: [Synth 8-9937] previous definition of design element 'registerFile' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/RegisterFile.v:50]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'signExtension' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v:31]
+INFO: [Synth 8-9937] previous definition of design element 'signExtension' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v:31]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'signExtension12Bit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtender12Bit.v:33]
+INFO: [Synth 8-9937] previous definition of design element 'signExtension12Bit' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/SignExtender12bit.v:33]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'sll' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/sll.v:27]
+INFO: [Synth 8-9937] previous definition of design element 'sll' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/sll.v:27]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ALU' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v:76]
+INFO: [Synth 8-9937] previous definition of design element 'ALU' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v:76]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'pcAdder' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v:27]
+INFO: [Synth 8-9937] previous definition of design element 'pcAdder' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v:27]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'adder' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/add.v:30]
+INFO: [Synth 8-9937] previous definition of design element 'adder' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/add.v:30]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'dataMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:61]
+INFO: [Synth 8-9937] previous definition of design element 'dataMemory' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:61]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'multiplexer' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v:30]
+INFO: [Synth 8-9937] previous definition of design element 'multiplexer' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v:30]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'ALUControlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:61]
+INFO: [Synth 8-9937] previous definition of design element 'ALUControlUnit' is here [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:61]
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/processor.v:35]
+INFO: [Synth 8-6157] synthesizing module 'programCounter' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'programCounter' (1#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ProgramCounter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instructionMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'instruction_memory.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'instructionMemory' (2#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/instructionMemory.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pcAdder' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pcAdder' (3#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/pcAdder.v:22]
+INFO: [Synth 8-6157] synthesizing module 'registerFile' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/registerFile.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'reg_init.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/registerFile.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'registerFile' (4#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/registerFile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'controlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'controlUnit' (5#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/controlUnit.v:22]
+INFO: [Synth 8-6157] synthesizing module 'signExtension12Bit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtender12Bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'signExtension12Bit' (6#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtender12Bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'signExtension' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'signExtension' (7#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/signExtension.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiplexer' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'multiplexer' (8#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/multiplexer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUControlUnit' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'ALUControlUnit' (9#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALUControlUnit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'dataMemory' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:23]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'data_memory.mem'; please make sure the file is added to project and has read permission, ignoring [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (11#1) [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/data_memory.v:23]
+ERROR: [Synth 8-91] ambiguous clock in event control [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/processor.v:151]
+ERROR: [Synth 8-6156] failed synthesizing module 'processor' [C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.srcs/sources_1/new/processor.v:35]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2032.434 ; gain = 533.516
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 16 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2032.434 ; gain = 534.383
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 2032.434 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:22 . Memory (MB): peak = 2032.434 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property -name {xsim.simulate.runtime} -value {1000ns} -objects [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'test_processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'test_processor_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/data_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/instruction_memory.mem'
+INFO: [SIM-utils-43] Exported 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim/reg_init.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/karan/OneDrive/Documents/Work/UB/SEM2/Computer Architecture/project_1_updatedv5/project_1_updatedv4/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj test_processor_tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2032.434 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2032.434 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  3 17:42:41 2025...

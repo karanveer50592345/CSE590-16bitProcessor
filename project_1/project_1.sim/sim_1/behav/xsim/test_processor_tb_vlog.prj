@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/ALU.v" \
+"../../../../project_1.srcs/sources_1/new/ALUControlUnit.v" \
+"../../../../project_1.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../project_1.srcs/sources_1/new/add.v" \
+"../../../../project_1.srcs/sources_1/new/controlUnit.v" \
+"../../../../project_1.srcs/sources_1/new/data_memory.v" \
+"../../../../project_1.srcs/sources_1/new/instructionMemory.v" \
+"../../../../project_1.srcs/sources_1/new/multiplexer.v" \
+"../../../../project_1.srcs/sources_1/new/pcAdder.v" \
+"../../../../project_1.srcs/sources_1/new/signExtension.v" \
+"../../../../project_1.srcs/sources_1/new/sll.v" \
+"../../../../project_1.srcs/sources_1/new/RegisterFile.v" \
+"../../../../project_1.srcs/sources_1/new/SignExtender12bit.v" \
+"../../../../project_1.srcs/sources_1/new/processor.v" \
+"../../../../project_1.srcs/sources_1/new/subtractor.v" \
+"../../../../project_1.srcs/sim_1/new/test_ins_mem_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_pc_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_reg_file_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_control_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_alu_control_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_mux_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_adder_tb.v" \
+"../../../../project_1.srcs/sources_1/new/unitTestSignExtension.v" \
+"../../../../project_1.srcs/sim_1/new/test_sl1_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_data_mem_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_add_instr_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_processor_tb.v" \
+"../../../../project_1.srcs/sim_1/new/test_alu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
